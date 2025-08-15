@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kanayo-Egwuonwu Nnedi | About</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <!-- Header -->
+  <header class="bg-white shadow-sm py-6 px-4 md:px-12">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold text-purple-700">Nnedi Portfolio</h1>
+      <nav class="flex gap-6 text-sm">
+        <a href="index.html" class="hover:text-purple-600 transition-colors">Home</a>
+        <a href="about.html" class="font-semibold text-purple-700">About</a>
+        <a href="projects.html" class="hover:text-purple-600 transition-colors">Research & Projects</a>
+        <a href="contact.html" class="hover:text-purple-600 transition-colors">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <main class="max-w-6xl mx-auto py-16 px-6">
+    <h2 class="text-3xl font-bold text-center text-purple-700 mb-12">About Me</h2>
+
+    <!-- Profile Section with Side-by-Side Layout -->
+    <section class="grid lg:grid-cols-5 gap-12 items-start mb-16">
+      <!-- Text Content -->
+      <div class="lg:col-span-3 space-y-6">
+        <div class="text-gray-700 leading-relaxed text-lg">
+          <p class="mb-6">
+            I am <strong class="text-purple-700">Kanayo-Egwuonwu Nnedi</strong>, a passionate and developing researcher in pure mathematics with a strong foundational background in algebra and symmetry. Currently transitioning from mathematics education into advanced mathematical research, with a specific interest in group theory, algebraic structures, and their applications in symmetry.
+          </p>
+          
+          <p class="mb-6">
+            Motivated to pursue postgraduate studies (Master's/MRes) and contribute to mathematical theory, research-informed teaching, and interdisciplinary collaboration.
+          </p>
+
+          <p class="mb-6">
+            I hold a <strong class="text-purple-700">B.Sc(Ed) in Science Education (Mathematics)</strong> from Nnamdi Azikiwe University, Awka, and a teaching certificate from the Teachers Registration Council of Nigeria. With over <strong class="text-purple-700">four years of teaching experience</strong>, I bring both practical classroom expertise and a growing research interest in algebraic studies of group actions.
+          </p>
+
+          <p class="mb-6">
+            My research interest is focused on <em class="text-purple-700 font-semibold">"An Algebraic Study of Group Actions and Their Applications in Symmetry."</em> I am also skilled in abstract and analytical reasoning, mathematical writing, proof construction, and have basic familiarity with GAP software.
+          </p>
+        </div>
+      </div>
+
+      <!-- Profile Image -->
+      <div class="lg:col-span-2 flex justify-center lg:justify-end">
+        <div class="relative">
+          <div class="text-center">
+            <img 
+              src="images/nnedi-profile.jpg" 
+              alt="Kanayo-Egwuonwu Nnedi" 
+              class="w-80 h-96 rounded-2xl shadow-2xl object-cover border-4 border-white hover:scale-105 transition-transform duration-300 mb-6"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+            />
+            <!-- Fallback placeholder -->
+            <div class="w-80 h-96 rounded-2xl shadow-2xl border-4 border-white bg-gradient-to-br from-purple-100 to-purple-200 hidden items-center justify-center mb-6">
+              <div class="text-center">
+                <div class="w-24 h-24 bg-purple-300 rounded-full mx-auto mb-4 flex items-center justify-center">
+                  <svg class="w-12 h-12 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
+                  </svg>
+                </div>
+                <p class="text-purple-600 font-semibold text-lg">Nnedi</p>
+                <p class="text-purple-500 text-sm">Mathematics Researcher</p>
+              </div>
+            </div>
+            
+            <!-- Download Resume Button -->
+            <a 
+              href="images/nnee_cv.pdf" 
+              download="Kanayo-Egwuonwu-Nnedi-Resume.pdf"
+              class="inline-flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+            >
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+              </svg>
+              Download Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Additional Information Cards -->
+    <section class="grid md:grid-cols-2 gap-8">
+      <!-- Education Card -->
+      <div class="bg-white p-8 rounded-xl shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300">
+        <div class="flex items-center mb-4">
+          <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mr-4">
+            <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-purple-700">Education & Experience</h3>
+        </div>
+        <p class="text-gray-600 leading-relaxed">
+          B.Sc(Ed) in Science Education (Mathematics) from Nnamdi Azikiwe University, Awka, with teaching certification and over four years of practical classroom experience.
+        </p>
+      </div>
+
+      <!-- Research Focus Card -->
+      <div class="bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-xl shadow-lg border border-purple-200 hover:shadow-xl transition-shadow duration-300">
+        <div class="flex items-center mb-4">
+          <div class="w-12 h-12 bg-purple-200 rounded-full flex items-center justify-center mr-4">
+            <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-purple-700">Research Focus</h3>
+        </div>
+        <p class="text-gray-700 leading-relaxed">
+          Specialized in algebraic studies of group actions and their applications in symmetry, with skills in abstract reasoning, mathematical writing, and GAP software.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center py-8 text-sm text-gray-500 border-t bg-white mt-16">
+    © 2025 Kanayo-Egwuonwu Nnedi. All rights reserved.
+  </footer>
+</body>
+</html>
